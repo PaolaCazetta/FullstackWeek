@@ -1,0 +1,19 @@
+package br.com.paolacazetta.fullstackweek.resources;
+
+import java.util.List;
+
+
+
+@RestController
+@RequestMapping("/Pessoas")
+public class PessoaResource {
+	
+	@Autowired
+	private Pessoa pessoaRepository;
+	
+	
+	public List<Pessoa> listasTodos(){
+		return pessoaRepository.findAll();
+	}
+
+}

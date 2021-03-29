@@ -1,0 +1,12 @@
+package br.com.paolacazetta.fullstackweek.repository;
+
+import javax.persistence.Entity;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.paolacazetta.fullstackweck.domain.Pessoa;
+
+@Entity
+public interface PessoaRepository extends JpaRepository<Pessoa, Long>{
+
+}

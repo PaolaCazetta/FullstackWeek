@@ -1,0 +1,5 @@
+package br.com.paolacazetta.fullstackweek.repository;
+
+public interface PessoaRepository {
+
+}

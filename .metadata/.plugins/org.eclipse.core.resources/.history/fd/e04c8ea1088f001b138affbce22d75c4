@@ -1,0 +1,11 @@
+package br.com.paolacazetta.fullstackweek.repository;
+
+import javax.persistence.Entity;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.paolacazetta.fullstackweck.domain.GruposPrioridades;
+
+public interface GruposPrioritadesRepository extends JpaRepository<GruposPrioridades, Long>{
+
+}

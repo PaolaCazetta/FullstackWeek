@@ -1,0 +1,5 @@
+package br.com.paolacazetta.fullstackweck.domain;
+
+public class Pessoa {
+
+}

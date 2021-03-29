@@ -1,0 +1,15 @@
+package br.com.paolacazetta.fullstackweek.domain;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Pessoa {
+
+	private Long codigo;
+	private String nome;
+	private String cpf;
+	private String telefone;
+	private String email;
+	private Integer idade;
+	private String dataNascimento;
+}
